@@ -1,6 +1,3 @@
-
-
-
 import React ,{Component} from 'react';
 import { Cell, Grid } from 'react-mdl';
 

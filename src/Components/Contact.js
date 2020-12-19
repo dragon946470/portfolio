@@ -3,7 +3,6 @@ import '../App.css';
 
 
 class Contact extends Component{
-
       constructor(props){
           super(props);
           this.state ={
@@ -16,12 +15,7 @@ class Contact extends Component{
 
       handleNameChange = e => {
         this.setState({ Name: e.target.value });
-       // console.log(e.target.value)
         const fm = e.target.value
-       console.log('/////////////',fm);
-    //   alert(`hey ${fm} your message was successful sent`);
-         
-       
       };
     
       handleEmail = e => {
@@ -34,7 +28,6 @@ class Contact extends Component{
       };
 
       onFormSubmit = (event) => {
-        // to prevent page reload on form submit
         event.preventDefault();
         console.log(this.state)
     
@@ -55,28 +48,29 @@ class Contact extends Component{
     render(){
         return(
             <form className ='register_components'>
-                    <div>
+                    <div> 
+                        <p>Contact Me</p>
                         <label>
-                            Name :
+                            Name:
                             <input type="text" name="name" onChange={this.handleNameChange} value={this.state.Name}/>
                         </label>   
                     </div>
                     <br/>
                     <div>
                         <label>
-                            Phone :
+                            Phone:
                             <input type="text" name="name" />
                          </label>
                     </div>
                     <br/>
                     <div>
                         <label>
-                            Email :
+                            Email:
                             <input type="text"  email ='email'/>
                         </label>
                     </div>
-                    <button style={{background:'blue', borderRadius:'12px'}} onClick = {this.onFormSubmit}> Submit</button>
-
+                    <button style={{background:'grey', borderRadius:'13px'}} onClick = {this.onFormSubmit}> Submit</button>
+                    <p>I will respond soon as possible</p>
             </form>
         )
     }

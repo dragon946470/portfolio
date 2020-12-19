@@ -1,21 +1,12 @@
 
-.header{
-  background: #833ab4;  
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
-  /* position: fixed;
-  margin-top: 0;
-  margin-left: 0; */
-}
+
+
 
 .page-content{
   background: #833ab4;  
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   text-align: center;
-  /* position: fixed;
-  margin-top: 0;
-  margin-left: 0; */
   
 }
 
@@ -26,11 +17,12 @@
   
 }
 
-/* img{
-  height: 200px;
-  padding-top: 2em;
-  width: 150px;
-} */
+.aboutPara{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
 
 .text-banner{
   background-color: black;
@@ -65,7 +57,7 @@
   margin: auto;
 }
 
-.Social_Links i{
+.links i{
   color: white;
   padding: 5px;
   font-size: 3em;
@@ -85,7 +77,7 @@
 
 
 #photo{
-    border-radius: 50%;
+    border-radius: 40%;
     height: auto;
     width: 200px;
     padding-top: 0px;
@@ -95,8 +87,6 @@
   text-align: center;
    margin: 10px; 
    height: auto;
-  /* width: 50%;
-  height: 50%; */
 }
 #my-resume a{
   
