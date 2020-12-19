@@ -1,0 +1,110 @@
+
+.header{
+  background: #833ab4;  
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+  /* position: fixed;
+  margin-top: 0;
+  margin-left: 0; */
+}
+
+.page-content{
+  background: #833ab4;  
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  text-align: center;
+  /* position: fixed;
+  margin-top: 0;
+  margin-left: 0; */
+  
+}
+
+.cont{
+  display: grid;
+  justify-content: center;
+  align-content: center; 
+  
+}
+
+/* img{
+  height: 200px;
+  padding-top: 2em;
+  width: 150px;
+} */
+
+.text-banner{
+  background-color: black;
+  opacity: .8;
+  margin:auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.text-banner h1{
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.text-banner hr{
+  border-top: 5px dotted white;
+  margin: auto;
+  width: 50%;
+}
+
+.text-banner p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.Social_Links{
+  display: flex;
+  justify-content: space-around; 
+  margin: auto;
+}
+
+.Social_Links i{
+  color: white;
+  padding: 5px;
+  font-size: 3em;
+}
+
+.register_components{
+  text-align: center;
+  margin-top: 100px;
+  
+}
+.register_components button{
+  margin-top: 5px;
+  padding: 2px;
+  border-radius: 12px solid black;
+  font-size: 15px;
+} 
+
+
+#photo{
+    border-radius: 50%;
+    height: auto;
+    width: 200px;
+    padding-top: 0px;
+
+}
+#my-pic{
+  text-align: center;
+   margin: 10px; 
+   height: auto;
+  /* width: 50%;
+  height: 50%; */
+}
+#my-resume a{
+  
+ display: flex;
+  color:blue; 
+   font-size: 1em;
+  font-weight: 30px; 
+ margin-left: auto;
+ 
+}
+
